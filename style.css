@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a5b93;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
+    margin-top: 10%;
+}
+
+#textoInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color:#2980b9;
+    margin-top: 2%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+ 
+#opcao{
+    margin-top: 10px;
+    color:#1c06c2;;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#resultado {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+#btnCopiar {
+    padding: 10px;
+    background-color: #b5cad7;
+    color: #1c06c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#btnCopiar:hover {
+    background-color: #2980b9;
+}
+
+#imagem {
+    width: 20%;
+    max-width: 100px; /* Defina o tamanho máximo desejado */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

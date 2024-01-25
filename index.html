@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js"></script>
+    <title>Criptografia</title>
+   
+</head>
+<body>
+    <div class="container">
+        <img id="imagem" src="cadeado.jpg" alt="Imagem Temática">
+
+        <h2>Criptografia</h2>
+        <label for="textoInput">Digite seu texto:</label>
+        <input type="text" id="textoInput" placeholder="Ex: gato">
+
+        <label for="opcao">Opção:</label>
+        <select id="opcao">
+            <option value="criptografar">Criptografar</option>
+            <option value="descriptografar">Descriptografar</option>
+        </select>
+
+        <button onclick="processarTexto()" id="btnCopiar">Processar</button>
+
+        <div id="resultado"></div>
+
+        <button id="btnCopiar" onclick="copiarResultado()">Copiar Resultado</button>
+    </div>
+
+    
+</body>
+</html>
