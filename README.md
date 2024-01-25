@@ -10,9 +10,7 @@
 - "o" para "ober"
 - "u" para "ufat"
 
-## ✅ Requisitos do projeto:
-- Apenas letras minúsculas.
-- As letras não devem conter acentos ou caracteres especiais.
+## ✅ Versão inicial do projeto. 
 
 ## ➡️ Exemplo:
 > gato: "gaitober"
